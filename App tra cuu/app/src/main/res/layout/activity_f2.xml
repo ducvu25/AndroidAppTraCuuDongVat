@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:layout_marginTop="32dp"
+    android:layout_marginBottom="32dp"
+    android:background="#FFFFFF"
+    tools:context=".F2" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"
+        android:text="MÔI TRƯỜNG SỐNG"
+        android:textSize="32sp"
+        android:textStyle="bold"></TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:weightSum="100"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:src="@drawable/mat_dat" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:weightSum="100"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dong_vat_tren_can" />
+            </ScrollView>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/F2btn1"
+                android:layout_width="112dp"
+                android:layout_height="0dp"
+                android:layout_weight="35"
+                android:text="Tiếp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:weightSum="100"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:src="@drawable/duoi_nuoc" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:weightSum="100"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dong_vat_duoi_nuoc" />
+            </ScrollView>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/F2btn2"
+                android:layout_width="112dp"
+                android:layout_height="0dp"
+                android:layout_weight="35"
+                android:text="Tiếp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:weightSum="100"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:src="@drawable/tren_khong" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60"
+            android:weightSum="100"
+            android:layout_marginLeft="32dp"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/dong_vat_tren_khong" />
+            </ScrollView>
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/F2btn3"
+                android:layout_width="112dp"
+                android:layout_height="0dp"
+                android:layout_weight="35"
+                android:text="Tiếp"
+                android:background="#FFFFFF"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/F2btnBack"
+        android:layout_width="118dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_weight="10"
+        android:background="#FFFFFF"
+        android:text="Trở về"
+        android:textSize="16sp"></Button>
+</LinearLayout>

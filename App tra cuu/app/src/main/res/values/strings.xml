@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="dong_vat_tren_can">Động vật trên cạn: Bao gồm các động vật sinh sống trên mặt đất.</string>
+    <string name="dong_vat_duoi_nuoc">Động vật trong nước: Bao gồm các động vật sinh sống trong nước như cá, mực, tôm,...</string>
+    <string name="dong_vat_tren_khong">Động vật trên không: Bao gồm các động vật sinh sống trên bầu trời.</string>
+</resources>
